@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maquetando</title>
+</head>
+
+<style>
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+
+    margin: 20px;
+background: url("abg..jpg") center center no-repeat;
+background-size: cover;
+color: white;
+height: 100vh;
+display: flex;
+flex-flow: column;
+
+
+}
+
+header {
+
+outline: 3px white solid;
+height: 4rem;
+
+}
+
+nav{
+
+    outline: 3px white solid;
+    height: 4rem;
+    
+
+
+}
+
+footer{
+
+    outline: 3px white solid;
+    height: 4rem;
+    margin-top: auto;
+    display: flex;
+
+
+}
+
+section{
+
+outline: 3px white solid;
+height: 100%;
+
+
+}
+
+.menu{
+
+    display: flex;
+}
+
+.menu-item{
+
+    list-style: none;
+    flex: 1;
+    outline: 3px white solid;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.menu-item:hover{
+
+
+    flex: 8;
+    transition: flex .7s;
+    background: rgb(223, 237, 241);
+}
+
+.derecha{
+ 
+ display: flex;
+ outline: 3px white solid;
+
+}
+
+.izquierda{
+
+    display: flex;
+
+    outline: 3px white solid;
+
+
+
+}
+ 
+ .menu-footer{
+
+    list-style: none;
+    
+    text-align: center;
+    line-height: 4rem;
+    outline: 3px white solid;
+
+ }
+
+
+ .menu-footer1{
+
+    flex: 1;
+ outline: 3px white solid;
+ transition: flex .7s;
+
+ }
+
+ .menu-footer1:hover{
+
+flex: 8;
+background: rgb(223, 237, 241);
+
+} 
+
+ .name{
+
+animation-duration: 5s;
+animation-name: slidein;
+animation-fill-mode: forwards;
+
+ }
+ @keyframes slidein{
+
+0%{
+
+
+    margin-left: 100%;
+    width: 300%;
+    color: black;
+    font-size: 20px;
+}
+
+50%{
+background: rgb(195, 197, 197);
+
+}
+
+100%{
+
+    margin-left: 0%;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+
+
+}
+
+ }
+</style>
+<body>
+
+    
+
+
+<header> <p class="name"> andrea</p> </header>
+<nav> 
+
+    <ul class = "menu" >  
+
+    <li class="menu-item">home</li>
+    <li class="menu-item">profile</li>
+    <li class="menu-item">about</li>
+    <li class="menu-item">contac</li>
+
+</ul>
+
+
+</nav>
+<section> 
+<section  class="derecha" derecha ></section>
+<section  class="izquierda"izquierda ></section>
+
+</section>
+ <footer>
+    <ul class="menu-footer">
+        <li class="menu-footer1">contac></li>
+        <li class= "menu-footer1">more></li>
+    </ul>
+ </footer>   
+
+
+
+</body>
+
+
+    
+</body>
+</html>
